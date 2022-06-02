@@ -4,7 +4,7 @@
 * Payments with Stripe service
 * Registrations verifications(don't work because i'm have banned on SendGrid:)
 
-Heroku: https://desolate-beyond-61787.herokuapp.com/users/sign_up
+Heroku: https://desolate-beyond-61787.herokuapp.com
 
 Sign up details:
 Card: 4242424242424242
