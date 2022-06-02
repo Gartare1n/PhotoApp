@@ -2,6 +2,9 @@ require_relative "boot"
 
 require "rails/all"
 
+require 'fog/core'
+Fog::Logger[:deprecation] = nil
+
 # Require the gems listed in Gemfile, including any gems
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)
@@ -10,6 +13,7 @@ module PhotoApp
   class Application < Rails::Application
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 6.1
+    config.autoloader = :classic
 
     # Configuration for the application, engines, and railties goes here.
     #
