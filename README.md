@@ -3,6 +3,7 @@
 * Add, edit, delete image with CarrierWave, Mini_Magick and Fog gems
 * Payments with Stripe service
 * Registrations verifications(don't work because i'm have banned on SendGrid:)
+
 Heroku: https://desolate-beyond-61787.herokuapp.com/users/sign_up
 
 Sign up details:
