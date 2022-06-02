@@ -5,7 +5,9 @@
 // the compiled file.
 //
 //= require jquery
-//= require jquery_ujs
 //= require twitter/bootstrap
-//= require turbolinks
+//= require jquery_ujs
+
 //= require_tree .
+import "bootstrap";
+import "./credit_card_form" ;
